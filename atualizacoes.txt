@@ -1,0 +1,82 @@
+Futuramente:
+	
+	-Suporte
+		+ Criar um suporte
+
+	+ Urgente
+		Sistema de acesso a área administrativa
+
+	
+==============================================================
+ Notas de atualizações:
+ 	
+ 	
+ 	+ Ranking de clan (22/12/2019)
+ 	+ Novo sistema de requisição assincrono da API (30/11/19)
+15-11-19
+ 	+ Melhorias no sistema
+ 	+ Melhorias no layout
+ 	+ Melhoria na Segurança 
+23-07-19
+	+ Melhoria no sistema
+	+ Problema de browsers incompátiveis
+14-06-19
+ 	+ Segurança
+ 	+ Correção de bugs
+ 	+ Novas funcionalidades
+ 	+ cash diario
+ 	+ Melhorias gerais
+13-05-19
+	+ Otimização do banco de dados
+ 	+ Recuperação de contas
+ 	+ Melhorias no sistema
+05-05-19
+ 	+ CMS: Banimento de players
+ 	+ Melhorias no sistema
+27-04-19
+ 	+ Pagina do usuario
+13-04-19
+	+ Listagem de players online no painel admin corrigida
+	+ Desconectar player pelo site
+	+ Gerenciamento de players mais interativo
+11-04-19
+ 	+ Melhorias no sistema
+ 	+ Exigido confirmação por email no cadastro de contas
+05-04-19
+ 	+ Melhoria no layout + Pag Download
+ 	+ CMS: Search players
+ 	+ Segurança ++
+ 	+ Correção de contagem de players online
+ 	+ Melhorias no sistema
+
+26-03-19
+	+ Melhorias no sistema
+	+ CMS: Usuarios, Pincode, Editar postagens
+
+10/03/19
+ 	+ Logins com letras maiusculas não logavam no jogo. [RESOLVIDO]
+
+09/03/19
+ 	+ Aplicado requisitos de patente para aparecer no ranking ( Terceiro Sargento 1)
+ 	+ Reforçado a segurança na área de login/signup
+ 	+ Solucionado: players que continham caracteres especiais no nick n apareciam na pesquisa de ranking
+ 	+ Correção de bugs/Falhas
+ 	+ Melhoria no sistema
+ 	+ Painel de admin
+ 	+ Layout
+ 	+ Feed de noticias
+ 
+10/02/19
+ 	+ Segurança + reforçado o sistema de captcha
+
+08/02/19
+ 	+ SEO 
+ 	+ Pincode
+
+01/02/19
+ 	+ Correção no ranking geral
+ 	+ Alerta de servidor offline
+ 	+ Site responsivo
+ 	+ Adicionado menu com dropdown
+ 	+ Erro no calculo das informações dos usuarios corrigido
+ 	+ Alterações no layout

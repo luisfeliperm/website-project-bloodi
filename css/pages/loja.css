@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Indie+Flower&display=swap');
+.main-loja{
+	overflow: hidden;
+}
+.main-loja > .left{ /* pincode -*/
+	width: 60%;
+	max-width: 330px;
+}
+.main-loja > .right{ /* Cash diario */
+	width: 40%;
+}
+
+/* Por dentro */
+.aviso{
+    background: #008252;
+    padding: 7px;
+    border-left: 3px solid #00462c;
+    margin: 16px 0px;
+    color: #c6ffef;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #000;
+}
+.main-loja > .left form{
+    border: 1px solid #0a2967;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+    background: #011544;
+    border-radius: 5px;
+    color: #ddd;
+    box-shadow: inset 0px -20px 15px 7px #001035;
+}
+.main-loja > .left form .item{
+    overflow: hidden;
+    margin: 8px 8px;
+}
+.main-loja > .left form .item label{
+    font-size: 19px;
+    color: #83a1e6;
+    text-shadow: 1px 1px #000;
+}
+.main-loja > .left form .item input{
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ab9e03;
+    background: #04102d;
+    border: 1px solid #102e75;
+}
+.main-loja > .left form .item button{
+    padding: 7px 12px;font-size: 16px;font-weight: bold;
+    border-radius: 3px;border: 1px solid #06266f;
+    background: transparent;
+    color: #83a1e6;outline:0;
+    box-shadow: inset 0px 0px 9px 0px rgba(7, 25, 62, 0.6196078431372549);
+}
+.main-loja > .left form .item button:hover{color:#7592d6;}
+.main-loja > .left form .item button:active{transform: scale(0.97);}
+.main-loja > .left form .item .status{
+    padding: 7px 2px;
+    display:table;
+    color: #a0d600;
+    font-size: 14px;
+}
+.main-loja > .left form .item .status img{
+    width: 24px;margin:-4px 0px;
+}
+
+.main-loja > .right .daycash{
+    border: 1px solid #016517;
+    background: rgba(11, 64, 23, 0.27058823529411763);
+    margin-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -2px 6px 14px 0px rgba(2, 105, 20, 0.23137254901960785);
+    text-shadow: 1px 1px #000;
+
+}
+.main-loja > .right .daycash .titulo{
+	background: rgba(27, 255, 77, 0.16862745098039217);
+    color: #22a900;
+    padding: 8px 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #108d3d;
+    font-family: 'Exo 2', sans-serif;
+}
+.main-loja > .right .daycash .valor{
+	margin: 10px;
+    font-size: 34px;
+    text-shadow: 1px 1px 1px #111;
+    color: #9cd891;
+}
+.main-loja > .right .daycash .valor span{
+    background: rgba(9, 67, 45, 0.6196078431372549);
+    padding: 5px;
+    margin: 0px 5px;
+    display: inline-grid;
+    border-radius: 5px;cursor:default;
+    transition: all 0.2s;
+}
+.main-loja > .right .daycash .valor span:hover{
+    background: rgba(9, 67, 45, 0.4196078431372549);
+}
+.main-loja > .right .daycash button{
+	padding: 7px;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    font-size: 23px;
+    color: #36961f;
+    background: rgba(3, 76, 15, 0.3411764705882353);
+    font-weight: bold;
+    border-radius: 2px;outline:0;
+    border: 1px solid #2a6d3f;cursor:pointer;
+    margin-bottom: 10px;transition: all 0.1s;
+}
+.main-loja > .right .daycash button:hover{
+    color: #59bf40;
+}
+.main-loja > .right .daycash button span{
+    text-shadow: 1px 1px #000;
+    font-family: 'Indie Flower', cursive;
+
+    display:block;transition: all 0.1s;
+}
+.main-loja > .right .daycash button:hover span{
+    transform: scale(1.1);
+}
+.main-loja > .right #daycash_status{
+    color: #97d644;
+    text-shadow: 1px 1px 1px #000;
+    border: 1px solid;
+    background: rgba(41, 45, 2, 0.4196078431372549);
+    display: none;
+    font-size: 15px;
+    border-right: 4px solid;
+    padding: 5px 10px;
+}
+
+
+
+
+@media only screen and (max-width:1270px) {
+	.main-loja > .left{ /* pincode -*/
+		width: 100%;
+		max-width: none;
+	}
+	.main-loja > .right{ /* Cash diario */
+		width: 100%;
+	}
+
+
+	.main-loja > .right .daycash{
+		margin: 0 auto;
+		max-width: 300px;
+	    margin-bottom: 15px;
+	}
+    .main-loja > .right #daycash_status{
+        float: none;
+        margin:0 auto;
+        border-right: 1px solid;
+        padding: 5px 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+	.main-loja > .left form{
+		margin: 0 auto;
+	    margin-bottom: 30px;
+	}
+}

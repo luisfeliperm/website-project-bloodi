@@ -1,0 +1,9 @@
+2020-01-21 00:46:31 [SQL] 187.26.204.25 Query: SELECT * from contas WHERE  rank between '5' and '52' AND access_level>=0 AND player_name!=''  ORDER BY  exp DESC, rank DESC, kills_count DESC, headshots_count DESC  LIMIT 5 Resultado: SQLSTATE[08006] [7] could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "server.bloodipb.com" (34.95.232.74) and accepting
+	TCP/IP connections on port 5432?
+2020-01-21 00:48:48 [SQL] 127.0.0.1 Query: SELECT * from contas WHERE  rank between '5' and '52' AND access_level>=0 AND player_name!=''  ORDER BY  exp DESC, rank DESC, kills_count DESC, headshots_count DESC  LIMIT 5 Resultado: SQLSTATE[08006] [7] could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "server.bloodipb.com" (34.95.232.74) and accepting
+	TCP/IP connections on port 5432?
+2020-01-21 00:50:19 [SQL] 127.0.0.1 Query: SELECT * from contas WHERE  rank between '5' and '52' AND access_level>=0 AND player_name!=''  ORDER BY  exp DESC, rank DESC, kills_count DESC, headshots_count DESC  LIMIT 5 Resultado: SQLSTATE[08006] [7] could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "server.bloodipb.com" (34.95.232.74) and accepting
+	TCP/IP connections on port 5432?

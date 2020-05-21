@@ -1,0 +1,6 @@
++ Os arquivos de API devem estar na VPS aonde o server está operando
+
++ Voce pode separar a api do resto do site, desde que configure em /php/config/config.php o endereço da API (Ip da vps)
+
+
+[Está API retorna informações do servidor no formato Json]

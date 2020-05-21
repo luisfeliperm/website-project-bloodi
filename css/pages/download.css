@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Bitter|Exo+2');
+.download-header{
+}
+.download-header figure{
+    margin:0;
+    position:relative;
+    height:300px;
+    border: 1px solid #4c2121;
+    border-bottom: none;
+}
+
+.download-header figure figcaption{
+    position:absolute;top:0;left:0;
+    width:100%;
+    text-align:right;
+    text-shadow:1px 1px 16px #0f2861;
+    color:#b7ceff;
+    text-shadow:1px 1px 1px #000;
+    font-size:14px;
+    padding:3px 10px;
+    background:rgba(0, 18, 56, 0.6);
+}
+.download-header figure img{
+    width:100%;
+    height:300px;
+}
+.download-header .download-link a{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    text-decoration: none;
+    color: #fffcef;
+    border: 1px solid #4c2121;
+    border-bottom: 5px solid #4c2121;
+    text-shadow: 1px 1px #000;
+    box-shadow: inset 0px -20px 60px -25px rgba(76, 33, 33, 0.5215686274509804);
+    background: #000000;
+    transition: all 0.3s;
+}
+.download-header .download-link a i{
+}
+.download-header .download-link a span{
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+.download-header .download-link a:hover{
+    box-shadow: inset 0px -20px 35px 0px rgba(76, 33, 33, 0.49019607843137253);
+}
+
+.borda{
+    margin: 10px 0px;
+    box-shadow: 0px 2px 10px 0px #ff1414;
+    border: 0.5px solid #63450e;
+}
+
+.download-second{
+    margin:15px 0px;
+}
+.download-second a{
+    padding: 8px 16px;
+    font-size: 14px;
+    background: rgba(176, 65, 35, 0.2901960784313726);
+    color: #dcd3d3;
+    border: 1px solid #da765b;
+    float: right;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.download-second a:hover{
+    background: rgba(202, 94, 65, 0.2901960784313726);
+}
+.divide-2{margin-bottom: 15px;}
+.divide-2 .left{width: 380px;}
+.divide-2 .right{
+    width: calc(100% - 390px);
+    max-width: 300px;
+    padding: 5px;
+}
+
+
+.help-a iframe{width: 100%;border: 1px solid #08225f;}
+.requisitos{
+    margin-bottom:20px;
+    font-size: 14px;
+}
+.requisitos table{
+    border-collapse:collapse;
+    border:1px solid #4c4c4c;
+    padding:5px;
+    width:100%;
+}
+.requisitos table th{
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+}
+.requisitos table tr{width:100%;}
+.requisitos table  td,.requisitos table th { 
+    text-align:center;
+    border-bottom:1px solid #ddd;
+    border:1px solid #4c4c4c;
+    padding:8px;
+    color:#a5a3a3;
+    overflow:auto;
+}
+.requisitos table td:first-child{text-align:left;}
+
+
+.divide-2.download-footer .left{width: 300px;}
+.divide-2.download-footer .right{width: calc(100% - 310px);}
+
+
+.suporte{width: 380px;margin:0px 0px 15px 0px;}
+.suporte a{color: #cacaca;}
+.suporte h1{font-family: 'Acme', sans-serif;}
+.caixa-download .link{
+    float: right;
+    width: calc(100% - 70px);
+    max-width: 215px;
+    min-width: 200px;
+    background: rgba(78, 2, 2, 0.2784313725490196);
+    color: #e4a0a0;
+    text-shadow: 1px 1px 2px #000;
+    border:1px solid #580000;
+    text-align: right;
+    margin:5px 0px;margin-left: 8px;
+}
+.caixa-download .link img{
+    float: left;
+    width: 70px;
+    border-right: 1px solid #310000;
+    background: #310000;
+}
+.caixa-download .link .info{padding: 5px;font-size: 14px;}
+.caixa-download .link .info .titulo{
+    font-size: 17px;margin-bottom: 3px;
+}
+.caixa-download .link a{margin-top:5px;display: inline-block;color: #e4a0a0;}
+
+
+.caixa-download .link.link-blue {
+    background: rgba(4, 26, 82, 0.6901960784313725);
+    color: #a3afef;
+    border: 1px solid #091980;
+}
+.caixa-download .link.link-blue img {
+    border-right: 1px solid #001131;
+    background: #000f31;
+}
+.caixa-download .link.link-blue a{color: #a3afef;}
+
+.caixa-download .link.link-green {
+    background: rgba(3, 78, 2, 0.2784313725490196);
+    color: #a0e4a3;
+    border: 1px solid #005806;
+}
+.caixa-download .link.link-green img {
+    border-right: 1px solid #005806;
+    background: #003126;
+}
+.caixa-download .link.link-green a{color: #a0e4a3;}
+
+@media only screen and (max-width:600px) {
+    .divide-2{margin-bottom: 15px;}
+    .divide-2 .left{width: 100%;float:none;}
+    .divide-2 .right{width: 100%;float:none;}
+
+    .divide-2.download-footer .left{width: 100%;float:none;}
+    .divide-2.download-footer .right{width: 100%;float:none;}
+    .divide-2 .suporte{margin-top: 15px;}
+}

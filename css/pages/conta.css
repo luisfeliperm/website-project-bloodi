@@ -1,0 +1,203 @@
+.acc-main{
+	padding: 0px 10px;width: calc(100% - 310px);
+}
+.acc-main .acc-dados{margin-bottom: 15px;}
+/* tabela */
+.acc-main .acc-dados table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0px;
+    background-color: rgba(1, 46, 115, 0.23137254901960785);
+    text-shadow: 1px 1px #000;
+    color: #8690c5;
+}
+.acc-main .acc-dados table th{
+	padding: 8px;
+    color: #b2baf5;
+    background: #012e73;
+}
+.acc-main .acc-dados table td {
+    text-align: left;
+    border-bottom: 1px solid #012e73;
+    padding: 8px;
+    word-break: break-all;
+}
+.acc-main .acc-dados table td:first-child{ /* Atua com <TH> */
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: inherit;
+}
+/* td Online - desconectar */
+.acc-main .acc-dados table td.online a{text-decoration: none;color: #b5b5b5;font-size:13px;transition: color 0.2s;}
+.acc-main .acc-dados table td.online a:hover{color:#c35f5f;}
+/* td Banidos */
+.acc-main .acc-dados table td.banido{color:#bb9916;font-weight: bold;}
+
+.acc-main .acc-player{
+	text-shadow: 1px 1px #000;
+    color: #8690c5;
+    border-top: 1px solid #012e73;
+}
+.acc-main .acc-player .acc-player-item{
+	border-right: 5px solid #012e73;
+    border-left: 5px solid #012e73;
+    border-bottom: 1px solid #012e73;
+    background: rgba(1, 46, 115, 0.23137254901960785);
+    padding: 10px 25px;
+}
+.acc-main .acc-player .acc-player-item:last-child{margin-bottom:0;}
+
+/* ASIDE */
+.acc-aside{width: 280px;}
+.acc-aside .acc-menu a{
+	display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid #0e2982;
+    background: #011550;
+    color: #6c81c7;
+    margin: 5px 0px 5px 5px;
+    text-decoration: none;
+}
+
+.acc-aside .opcoes{margin-bottom: 10px;}
+.acc-aside .opcoes a{
+    padding: 8px 16px;
+    background: rgba(15, 40, 97, 0.4196078431372549);
+    color: #83a1e6;
+    border: 1px solid #0e2763;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.acc-aside .opcoes a:hover{background: #091d4a;}
+.acc-aside .opcoes a:not(:last-child){margin-bottom: 10px;}
+
+.caixa-download .link{
+    float: right;
+    max-width: 215px;min-width: 200px;
+    background: rgba(78, 2, 2, 0.2784313725490196);
+    color: #e4a0a0;
+    text-shadow: 1px 1px 2px #000;
+    border:1px solid #580000;
+    text-align: right;
+    margin:5px 0px;margin-left: 8px;
+}
+.caixa-download .link img{
+    float: left;width: 70px;height: 70px;border-right: 1px solid #310000;background: #310000;
+}
+.caixa-download .link .info{padding: 5px;font-size: 14px;}
+.caixa-download .link .info .titulo{font-size: 17px;margin-bottom: 3px;}
+.caixa-download .link a{margin-top:5px;display: inline-block;color: #e4a0a0;}
+
+.caixa-download .link.link-blue {
+    background: rgba(4, 26, 82, 0.6901960784313725);color: #a3afef;border: 1px solid #091980;
+}
+.caixa-download .link.link-blue img {border-right: 1px solid #001131;background: #000f31;
+}
+.caixa-download .link.link-blue a{color: #a3afef;}
+.caixa-download .link.link-green {
+    background: rgba(3, 78, 2, 0.2784313725490196);color: #a0e4a3;border: 1px solid #005806;
+}
+.caixa-download .link.link-green img {
+    border-right: 1px solid #005806;background: #003126;
+}
+.caixa-download .link.link-green a{color: #a0e4a3;}
+
+
+#voltar{margin-bottom: 60px;display:none;}
+
+#voltar button{
+    background: transparent;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #8caecc;
+    border: 1px solid #4a6880;
+}
+#voltar button i{font-size: 13px;}
+#alter-dados{display:none;}
+#alter-dados #status{display:none;max-width: 300px;width: 100%;margin-bottom: 10px;}
+#alter-dados form{
+    display: table;
+    margin: 0px auto;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+}
+#alter-dados form input,#alter-dados form button{width: 100%}
+#alter-dados form .titulo{
+    margin: -10px -10px 10px -10px;
+    padding: 6px 3px;
+    text-align: center;
+    border-bottom: 1px solid #0f2861;
+    color: #bed1f9;
+    background: #042665;
+}
+#alter-dados form .item{
+    margin-bottom: 8px;
+}
+#alter-dados form .item label{
+    margin-bottom: 3px;display:table;
+}
+#alter-dados form .item input{
+    padding: 8px 16px;
+    border: 1px solid #1f3362;
+    background: rgba(49, 75, 134, 0.6);
+    color: #94b0f1;
+}
+#alter-dados form .item.submit button{
+    margin-top: 5px;
+    padding: 9.5px;
+    width: 100%;
+    background: rgba(49, 75, 134, 0.6);
+    border: none;
+    color: #83aeff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+@media only screen and (max-width:1270px) {
+    .acc-main {
+        padding: 0px 10px;
+        width: calc(100% - 270px);
+    }
+    .acc-aside {
+        width: 260px;
+    }
+}
+@media only screen and (max-width:1160px) {
+    .acc-main {
+        padding: 0px 10px;
+        width: calc(100% - 210px);
+    }
+    .acc-aside {
+        width: 200px;
+    }
+
+    .caixa-download .link{
+        float: none;
+        width: 100%;
+        margin:5px 0px;
+    }
+}
+@media only screen and (max-width:1090px) {
+    .acc-main {
+        float: none;
+        margin: 15px auto;
+        width: 100%;
+        max-width: 400px;
+    }
+    .acc-aside {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .caixa-download .link{
+        float: none;
+        width: 100%;
+        margin:5px auto;
+    }
+}

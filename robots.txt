@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /php/
+Disallow: /cadastro/confirmar/
+Disallow: *?redirect=*
+Disallow: /recuperar/?token=*
+Disallow: *fb_comment_id=*
+
+Disallow: /*.txt$
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.gz$
+Disallow: /*.rar$
+Disallow: /*.bk$
+Disallow: /*.sql$
+
+Sitemap: https://bloodipb.com/sitemap.xml

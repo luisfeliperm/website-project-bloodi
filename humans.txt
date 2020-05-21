@@ -1,0 +1,13 @@
+/* DEV */
+Desenvolvedor: luisfeliperm
+Github: http://github.com/luisfeliperm/
+Facebook: https://www.facebook.com/luisfeliperm.net
+Contato: luisfelipepoint@gmail.com
+Location: Brasil
+
+/* PROJETO */
+Este website foi inicialmente desenvolvido no "Project Bloodi", com o fim do projeto este website foi comercializado
+
+/* SITE */
+Standards: HTML5, JAVASCRIPT, CSS3, PHP, C#
+Components: jQuery, Font Awesome

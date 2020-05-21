@@ -1,0 +1,30 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^c68059ff9075a67037d15000881f9ae4 - [L,NC]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  
+  RewriteRule ^ranking\/([0-9A-z_-]+)\/$ /index.php?page=ranking&type=$1 [NC,L,QSA]
+
+  RewriteRule ^eventos\/$ /index.php?page=noticias&cat=5 [NC,L,QSA]
+  RewriteRule ^atualizacoes\/$ /index.php?page=noticias&cat=3 [NC,L,QSA]
+  RewriteRule ^noticia\/([0-9A-z_-]+)\/$ /index.php?page=noticia&new_identy=$1 [NC,L,QSA]
+  RewriteRule ^([0-9A-z_-]+)/$ /index.php?page=$1 [NC,L,QSA]
+
+  RewriteRule ^cadastro/confirmar\/([0-9A-z]+)\/$ /php/paginas/signup/active.php?token=$1 [NC,L,QSA]
+
+
+
+  <FilesMatch "\.(log|bk|rar|zip|sql|ini|txt)$">
+    Require all denied 
+  </FilesMatch>
+  <FilesMatch "(humans.txt|robots.txt)$">
+    Require all granted
+  </FilesMatch>
+
+
+</IfModule>
+ErrorDocument 404 /php/paginas/404.html
+ErrorDocument 403 /php/paginas/403.html

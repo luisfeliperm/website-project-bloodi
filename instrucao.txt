@@ -1,0 +1,10 @@
+Realize as configurações do site nos arquivos:
+- config.php
+- mail.ini
+- project-details.ini
+- re-captcha.php
+
+[pasta /php/config/]
+
+[Configure a API separadamente] 
+O padrão da api é ficar na pasta /api/

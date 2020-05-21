@@ -1,0 +1,153 @@
+.header-rank{margin:25px 0px;}
+
+.header-rank .alter{margin-bottom:25px;}
+.header-rank .alter a{
+    display:inline-block;
+    padding:5px 5px;
+    background-color:#0586ec;
+    color:#d4f2ff;
+    border-radius:2px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14px;
+    margin-right:4px;
+    text-shadow:0px 0px 1px #000;
+    transition:background 0.1s;
+}
+.header-rank .alter a.active{
+    border-bottom: 2px solid #d4f2ff;
+    padding-bottom: 3px;
+}
+.header-rank .alter a:hover{background-color:#066ab9;}
+
+
+.header-rank .tools-rank{margin-bottom:20px;}
+.header-rank .tools-rank .search{
+	float:right;overflow:hidden;
+	border:1px solid #012f54;
+	width:220px;
+}
+.header-rank .tools-rank .search input,.header-rank .tools-rank .search button{
+	background:transparent;
+	border:none;font-weight:bold;
+	padding:8px;
+}
+.header-rank .tools-rank .search input{
+	float:left;
+	color:#ad4343;;
+	outline:none;
+	width:calc(100% - 70px);
+}
+.header-rank .tools-rank .search button{
+	float:left;
+	width:70px;
+	background-color:#012f54;
+	color:#fff;
+}
+.rank-msg{
+	border: 1px solid rgba(70, 57, 57, 0.8392156862745098);
+    padding: 15px;
+    font-size: 15px;
+    color: #ababab;
+}
+
+
+.man-rank .result{
+	font-size: 18px;
+    color: #da7d2e;
+    border: 1px solid;
+    border-left: 4px solid #da7d2e;
+    padding: 7px;
+    background: rgba(0, 0, 0, 0.25098039215686274);
+    text-shadow: 1px 1px #000;
+
+}
+.man-rank table{
+	margin-top: 25px;
+    width:100%;
+	border-spacing: 0;
+    border-collapse: separate;
+}
+.man-rank table img{
+	width:25px;
+	vertical-align:middle;
+}
+
+/* Geral */
+
+.man-rank table thead{
+	/*background-color: red;*/
+}
+.man-rank table td,.man-rank table thead th{
+	overflow:auto;
+    word-break:break-all;
+    text-align:center;
+}
+.man-rank table thead th{
+	padding: 8px;
+    border: 1px solid #1d2129;
+    border-left-width: 0px;
+    color: #627d9e;
+    text-shadow: 1px 1px #1d2129;
+    background: #020202;
+}
+.man-rank table thead th:first-child{
+	border-top-left-radius: 10px;
+	border-left-width: 1px;
+}
+.man-rank table thead th:last-child{
+	border-top-right-radius: 10px;
+}
+.man-rank table tbody tr{
+	box-shadow: inset 1px 1px 9px 3px #0f2861;
+	cursor: pointer;
+	
+}
+.man-rank table tbody td{
+	padding: 5px;
+    border: 1px solid #041f5d;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    color: #1877f2;
+    text-shadow: 1px 1px #000;
+    background: rgba(0, 0, 0, 0.5803921568627451)
+}
+.man-rank table tbody  tr:nth-child(even) td{
+	background: #030a1b;
+}
+.man-rank table tbody td:first-child{
+	border-left-width: 1px;
+}
+
+.man-rank table tbody tr:hover td{
+	color: #8da9cc;
+    background: #010510;
+}
+.man-rank table tbody tr td img{
+	transition: all 0.2s;
+}
+.man-rank table tbody tr:hover td img{
+	transform: scale(1.4,1.4);
+}
+
+
+
+/* Footer */
+.footer-rank{
+	margin-top: 25px;
+}
+.footer-rank .paginacao a{
+	display: inline-block;
+    padding: 4px 10px;
+    text-decoration: none;
+    border: 1px solid #2b4577;
+    color: #7f97ca;
+    text-shadow: 1px 1px 1px #010204;
+    background: #040f29;
+    font-size: 14px;
+    transition: all 0.1s;
+    border-radius: 2px;
+    margin-left: 7px;
+}
+.footer-rank .paginacao a.pag-no{cursor:default;}
+.footer-rank .paginacao a:not(.pag-no):hover{color:#95c0f7;}
